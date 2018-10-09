@@ -40,3 +40,7 @@ This comes down to the idea that you don't want to assign variables to null afte
 
 #### UseArrayAsList
 This is something that can be horrible for your application performance. This method should be used when you want to copy an array, this method copies the array and all its elements. Instead of doing a foreach where you loop through every element and copying it 1 by 1. 
+
+
+#### Performance
+I tried for a long time to get this up and running, Couldn't get Netbeans profiler to work.
