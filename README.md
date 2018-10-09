@@ -31,6 +31,9 @@ return a == b;
 ```
 This makes the method more simple and exactly explains what is happening in the one method.
 
+#### BadComparison
+We should not compare volatile types, in this case that would be Doubles because the precision when comparing floating point. And this is very likely to cause problems or inconsistencies when doing logical operations
+
 #### NullAssignment
 This comes down to the idea that you don't want to assign variables to null after they have been instatiated, by doing this you will increase the chance of errors. And you can have problem with returning null. 
 
